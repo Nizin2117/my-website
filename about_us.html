@@ -1,32 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>About Us</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Document</title>
+    <style>
+        /* Color Palette */
+        :root {
+            --background-color: #f4f4f4; /* Light background */
+            --primary-color: #333; /* Dark text */
+            --highlight-color: #ff6347; /* Tomato color for highlights */
+            --heading-color: #2c3e50; /* Darker color for headings */
+            --footer-color: #7f8c8d; /* Grey for footer text */
+        }
+
+        /* General Styles */
+        body {
+            background-color: var(--background-color);
+            color: var(--primary-color);
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* Header Styles */
+        .main-heading {
+            font-size: 2.5em; /* Large font size for main heading */
+            font-weight: bold;
+            color: var(--heading-color);
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .sub-heading {
+            font-size: 1.8em; /* Slightly smaller than main heading */
+            font-weight: normal;
+            color: var(--heading-color);
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        /* Content Styles */
+        .body-text {
+            font-size: 1em; /* Standard body text size */
+            text-align: left;
+            margin-bottom: 15px;
+        }
+
+        .highlight {
+            font-weight: bold;
+            color: var(--highlight-color);
+            background-color: rgba(255, 99, 71, 0.1); /* Light background for emphasis */
+            padding: 5px;
+            border-radius: 3px;
+        }
+
+        /* Footer Styles */
+        .footer-text {
+            font-size: 0.9em; /* Smaller font size for footer */
+            color: var(--footer-color);
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
-
-        <header>
-        <h1>About Us</h1>
+    <header>
+        <h1 class="main-heading">Welcome to My Website</h1>
+        <h2 class="sub-heading">Your one-stop solution for all needs</h2>
     </header>
-
-   
-    <section>
-        <h2>Who We Are</h2>
-        <p>We are a group of students aspiring to be web developers, designers, 
-		and content creators dedicated to helping individuals and businesses grow their online presence.
-		Our mission is to provide simple, effective, and affordable solutions for web development and design.</p>
-
-        <h2>Our Mission</h2>
-        <p>Our goal is to deliver high-quality websites and digital services that exceed our clients' expectations.
-		We aim to make the web accessible and engaging for everyone, 
-		whether they are starting from scratch or looking to enhance their online presence.</p>
-
-      
-
-   
+    <section class="content">
+        <p class="body-text">This is a sample paragraph demonstrating the body text style. 
+		It is designed to be easily readable and visually appealing.</p>
+        <p class="highlight">Important: Make sure to check our latest updates!</p>
+    </section>
     <footer>
-        <p>&copy; 2025 @Nhinzel</p>
+        <p class="footer-text">© 2023 My Website. All rights reserved.</p>
     </footer>
-
 </body>
 </html>
