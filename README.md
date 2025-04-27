@@ -1,4 +1,3 @@
-<html lang="en">
 <head>
     <style>
         /* General Styles */
@@ -52,7 +51,7 @@
     </a>
     <hr />
     <p>About Us</p>
-    <a href="About_us.html">
+    <a href="about_us.html">
         Learn more about us
     </a>
 </body>
